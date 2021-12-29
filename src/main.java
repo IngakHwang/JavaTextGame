@@ -89,11 +89,11 @@ public class main {
                         Runnable 뒤로가기음악 = new Runnable(){
                             @Override
                             public void run(){
-                            Player playMp3;
-                            try{
-                                FileInputStream fls=new FileInputStream("C:\\Users\\USER\\IdeaProjects\\JAVA1\\src\\music\\Back.mp3");
-                                playMp3 = new Player(fls);
-                                playMp3.play();} catch (Exception e){System.out.println(e);}}};
+                                Player playMp3;
+                                try{
+                                    FileInputStream fls=new FileInputStream("C:\\Users\\USER\\IdeaProjects\\JAVA1\\src\\music\\Back.mp3");
+                                    playMp3 = new Player(fls);
+                                    playMp3.play();} catch (Exception e){System.out.println(e);}}};
                         Thread 뒤로가기쓰레드 = new Thread(뒤로가기음악);
                         뒤로가기쓰레드.start();
                     }
@@ -252,7 +252,7 @@ public class main {
                                     Thread 노동쓰레드 = new Thread(노동음악);
                                     노동쓰레드.start();
                                 }
-                             }
+                            }
                             else if(선택노동현장==9){
                                 고길동.고길동정보();
                             }
@@ -593,7 +593,7 @@ public class main {
                                     else if(고길동.무기명==""){
                                         System.out.println("착용 중인 무기아이템이 없습니다.");
                                     }
-                            } // 무기 버리기
+                                } // 무기 버리기
                                 else if(이템탈부착==2){
                                     if(고길동.정장명!=""){
                                         System.out.println("정말 버리시겠습니까?");
@@ -832,7 +832,7 @@ public class main {
                                 else{
                                     System.out.println("헬스장 회원등록이 필요합니다.");
                                 }
-                        }
+                            }
 
                         } // 운동하기
                     } // 헬스장
@@ -919,8 +919,8 @@ public class main {
                     else{
                         System.out.println("정확한 숫자를 기입해주세요.");
                     }
-                    }
-                } //밖으로
+                }
+            } //밖으로
             else if(home==3){
                 boolean 둘리일당=true;
                 while(둘리일당){
@@ -1646,6 +1646,6 @@ public class main {
             else{
                 System.out.println("올바른 숫자를 입력해주세요.");
             }
-            }
         }
     }
+}

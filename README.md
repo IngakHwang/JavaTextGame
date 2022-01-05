@@ -8,7 +8,7 @@
 
 주인공인 고길동이 둘리와 일당을 처치하는 게임입니다.
 
-[![Video Label](https://i9.ytimg.com/vi/-Bhen1V-krs/mqdefault.jpg?sqp=CIzfro4G&rs=AOn4CLBoTkHGCBXP6YdpX4cIpwONnMNQCQ)](https://youtu.be/-Bhen1V-krs)
+[(![동영상 미리보기 이미지: 검성고길동](https://i9.ytimg.com/vi_webp/-Bhen1V-krs/mqdefault.webp?sqp=CNCW1Y4G&rs=AOn4CLA_kOJm878AtJd40ArCxQe-b9ywkA))](https://youtu.be/-Bhen1V-krs)
 
 ​				*- 클릭 시 동영상 재생됩니다.*
 
